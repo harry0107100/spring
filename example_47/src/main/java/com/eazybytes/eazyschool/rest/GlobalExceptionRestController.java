@@ -6,6 +6,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.annotation.Order;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -21,8 +22,8 @@ public class GlobalExceptionRestController extends ResponseEntityExceptionHandle
 
     @Override
     protected ResponseEntity<Object> handleMethodArgumentNotValid(MethodArgumentNotValidException ex,
-                                              HttpHeaders headers, HttpStatus status, WebRequest request) {
-        Response response = new Response(status.toString(),
+                                                                  HttpHeaders headers, HttpStatusCode statusCode, WebRequest request) {
+        Response response = new Response(statusCode.toString(),
                 ex.getBindingResult().toString());
         return new ResponseEntity(response, HttpStatus.BAD_REQUEST);
     }

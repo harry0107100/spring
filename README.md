@@ -1,7 +1,7 @@
 # Master Spring framework, Spring Boot, REST, JPA, Hibernate
 
 
-[![Image](https://udemy-image-web-upload.s3.amazonaws.com:443/redactor/raw/article_lecture/2022-08-02_02-33-45-7e119689fa6976c3fc375d05a1bd7dec.png "Master Spring framework, Spring Boot, REST, JPA, Hibernate")](https://www.udemy.com/course/spring-springboot-jpa-hibernate-zero-to-master/?referralCode=9FA65DAC46E91F6A225D)
+[![Image](https://eazybytes.com/assets/img/courses/spring-udemy.png "Master Spring framework, Spring Boot, REST, JPA, Hibernate")](https://www.udemy.com/course/spring-springboot-jpa-hibernate-zero-to-master/?referralCode=9FA65DAC46E91F6A225D)
 
 **'Master Spring framework, Spring Boot, REST, JPA, Hibernate'** course will help in understanding about Spring framework and how to build web applications, Rest Services using Spring, Spring MVC, SpringBoot, Thymeleaf, Spring JDBC, Spring Data JPA etc
 
@@ -40,6 +40,8 @@
 31) Profiles inside Spring Boot applications
 32) Conditional Bean creation using Profiles
 33) Monitoring Spring Boot applications using SpringBoot Actuator & Spring Boot Admin
+34) Deploying SpringBoot App into cloud using AWS Elastic Beanstalk
+
 
 ## Pre-requisite for the course
 
@@ -55,4 +57,4 @@
 - Thymeleaf website - https://www.thymeleaf.org/
 - Lombok website - https://projectlombok.org/
 - AWS website - https://aws.amazon.com/
-
+- AWS Elastic Beanstalk - https://aws.amazon.com/elasticbeanstalk/
